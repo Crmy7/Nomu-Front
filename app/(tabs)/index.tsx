@@ -40,9 +40,7 @@ export default function HomeScreen() {
           </Link>
         </>
       ) : (
-        <Link href="/profile">
-          <ThemedText type="link">Aller à mon profil</ThemedText>
-        </Link>
+        <ThemedText>Utilisez l'onglet recherche pour trouver des utilisateurs.</ThemedText>
       )}
     </ThemedView>
   );

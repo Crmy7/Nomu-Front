@@ -5,25 +5,27 @@
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+// Couleur d'accent globale
+const ACCENT = '#FF6A57';
+// Fond sombre avec ~41% d'opacité sur noir (approximation visuelle)
+const DARK_BACKGROUND = '#343434';
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
+    text: '#111111',
+    background: '#ffffff',
+    tint: ACCENT,
     icon: '#687076',
     tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    tabIconSelected: ACCENT,
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
+    text: '#FFFFFF',
+    background: DARK_BACKGROUND,
+    tint: ACCENT,
+    icon: '#D1D5DB',
     tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    tabIconSelected: ACCENT,
   },
 };
 
